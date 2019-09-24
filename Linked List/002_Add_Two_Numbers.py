@@ -46,7 +46,6 @@ class ListNode(object):
         
 #         return link_head.next
 
-
 # 方法二：双指针
 class Solution(object):
     def addTwoNumbers(self, l1, l2):
