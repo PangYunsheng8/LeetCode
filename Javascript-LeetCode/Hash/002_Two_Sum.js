@@ -1,22 +1,13 @@
 var twoSum = function(nums, target) {
-    let hashTable = {}
+    let mydic = {}
     for (let i = 0; i < nums.length; i++){
-        hashTable[nums[i]] = i;
-    }
-    let hashKey = []
-    for (key in hashTable){
-        hashKey.push(key)
-    }
-
-    let index = [];
-    for (let i = 0; i < nums.length - 1; i++){
         let value = target - nums[i]
-        if (value in hashKey && value != nums[i]){
-            index.push(i);
-            index.push(hashTable[value]) 
+        if (value in mydic){
+            return [mydic[value], i]
+        } else{
+            mydic[nums[i]] = i
         }
     }
-    return index
 };
 
 let nums = [3,2,4];
