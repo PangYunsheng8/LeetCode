@@ -16,4 +16,3 @@ class Solution(object):
             cur_row += 1 if going_down else -1      
         res = ''.join(rows)
         return res
-        
