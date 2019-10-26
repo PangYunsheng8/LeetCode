@@ -22,8 +22,8 @@ class Solution:
         
         return res
 
-
-class Solution:
+# 方法二：迭代
+class Solution1:
     def preorderTraversal(self, root: TreeNode):
         if not root: return []
         

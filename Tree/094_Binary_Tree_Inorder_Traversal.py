@@ -22,7 +22,7 @@ class Solution:
         return res
 
 # 方法二：迭代
-class Solution:
+class Solution1:
     def inorderTraversal(self, root: TreeNode):
         res = []
         stack = []
