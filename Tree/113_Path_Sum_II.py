@@ -6,7 +6,7 @@
 #         self.right = None
 
 class Solution:
-    def pathSum(self, root: TreeNode, sum1: int):
+    def pathSum(self, root, sum1: int):
         res = []
         temp = []
         
