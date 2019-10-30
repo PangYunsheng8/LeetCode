@@ -11,20 +11,18 @@ class Solution(object):
         :type root: TreeNode
         :rtype: List[List[int]]
         """
+        if not root: return []
         res = []
-        if not root:
-            return res
         stack = [root]
+
         while stack:
-            cur_res = [node.val for node in stack]
-            res.append(cur_res)
+            _res = [i.val for i in stack]
+            res.append(_res)
         
-            for i in range(len(cur_res)):
+            for _ in range(len(stack)):
                 node = stack.pop(0)
-                if node.left:
-                    stack.append(node.left)
-                if node.right:
-                    stack.append(node.right)
+                if node.left: stack.append(node.left)
+                if node.right: stack.append(node.right)
         return res
             
         
