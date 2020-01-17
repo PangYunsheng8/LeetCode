@@ -5,9 +5,8 @@ class Solution:
         left, right = 0, n - 1
         s_list = list(s)
         while left < right:
-            if s_list[left] not in vowel and left < n - 1: left += 1
-            if s_list[right] not in vowel and right > 0: right -= 1
-            print(left, right)
+            while s_list[left] not in vowel and left < n - 1: left += 1
+            while s_list[right] not in vowel and right > 0: right -= 1
             if left < right:
                 s_list[left], s_list[right] = s_list[right], s[left]
                 left += 1
