@@ -16,3 +16,7 @@ class Solution:
 model = Solution()
 res = model.reverseVowels("a.b,.")
 print(res)
+
+
+# 时间复杂度O(n)，空间复杂度O(1)
+# 注：字符串不能赋值，需要将字符串类型转换为list，再赋值
