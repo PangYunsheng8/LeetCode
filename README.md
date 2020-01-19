@@ -9,3 +9,8 @@ Learning data structure and algorithm from leetcode
 方法 | 题号
 -|-
 递归剪枝 | 098
+
+方法 | 题号
+-|-
+螺旋矩阵，遇到边界就换向 | 054， 059
+
