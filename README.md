@@ -14,3 +14,7 @@ Learning data structure and algorithm from leetcode
 -|-
 螺旋矩阵，遇到边界就换向 | 054， 059
 
+方法 | 题号
+-|-
+优化空间复杂度O(mn)->O(2N)->O(N) | 062
+
