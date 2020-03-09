@@ -49,8 +49,6 @@ class Solution3:
                 else: cur[j] = min(cur[j], cur[j-1]) + grid[i][j]
         return cur[-1]
 
-        
-
 
 if __name__ == '__main__':
     grid = [[1,3,1], [1,5,1], [4,2,1]]
