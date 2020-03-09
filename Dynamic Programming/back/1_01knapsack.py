@@ -28,7 +28,7 @@ class ZeroOneBack1D:
             for j in range(n, -1, -1):
                 if j >= V[i]:
                     dp[j] = max(dp[j], dp[j-V[i]] + W[i])
-                print(dp[j])
+                print(dp[j], i, j)
         print(dp)
         return dp[-1]
 
