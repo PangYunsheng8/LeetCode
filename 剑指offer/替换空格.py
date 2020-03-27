@@ -12,6 +12,7 @@ class Solution:
 
 
 # 解法二: 思路不变，但是不记录位置了，并且用list拼接代替字符串拼接，效率更高
+# 时间复杂度O(N), 空间复杂度O(N)
 class Solution:
     def replaceSpace(self, s: str) -> str:
         mystr = []
