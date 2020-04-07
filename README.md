@@ -23,5 +23,5 @@ Learning data structure and algorithm from leetcode
 二维数组中的查找 | 数组
 重建二叉树 | 树
 旋转数组的最小数字 | 双指针/分治
-矩阵中的路径 | DFS + 剪枝
+矩阵中的路径, 机器人的运动范围 | DFS + 剪枝
 
